@@ -1,0 +1,6 @@
+{
+  "name": "Sri Lanka Wedding Invites",
+  "description": "Sri Lanka's premier digital wedding invitation platform offering bespoke interactive video envelopes, WhatsApp RSVP, and multi-wedding hosting under one custom domain.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

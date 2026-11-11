@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --gold-primary: #D4AF37;
+    --gold-light: #F7E7CE;
+    --gold-dark: #997A15;
+    --ivory-bg: #FAF8F5;
+    --dark-charcoal: #1E1B18;
+  }
+
+  body {
+    background-color: var(--ivory-bg);
+    color: var(--dark-charcoal);
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-display {
+  font-family: 'Cinzel', serif;
+}
+
+.font-script-romantic {
+  font-family: 'Pinyon Script', cursive;
+}
+
+.font-calligraphy {
+  font-family: 'Alex Brush', cursive;
+}
+
+/* Metallic gold text gradient */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #A8833C 0%, #D4AF37 35%, #F5E0A3 60%, #B3862A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #D4AF37 0%, #ECC880 50%, #B88937 100%);
+}
+
+.gold-border-subtle {
+  border-color: rgba(212, 175, 55, 0.35);
+}
+
+.luxury-card-shadow {
+  box-shadow: 0 10px 30px -10px rgba(44, 36, 32, 0.08), 0 20px 40px -15px rgba(212, 175, 55, 0.12);
+}
